@@ -29,6 +29,6 @@ python setup.py install --cuda_ext --cpp_ext
 cd ..
 
 # install VC
-git clone https://github.com/Wangt-CN/VC-R-CNN.git
+git clone https://github.com/alfred100p/RPF.git
 cd VC-R-CNN
 python setup.py build develop
