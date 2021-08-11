@@ -1,8 +1,9 @@
 <h1>Todo</h1>
 <ul>
-<li>Object Detection- Effdet
-<li>Theshold
-<li>Causal Inference
-<li>Analysis and Scaling 
-<li>AoANet
+<li>Shell file for env setup
+<li>Seperate google drive folder for all features
+<li>ReadMe, formulating the flow
+<li>Object Detection- Effdet code
+<li>VCRCNN & RPF code
+<li>Captioning code
 </ul>
