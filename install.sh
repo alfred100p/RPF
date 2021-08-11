@@ -6,6 +6,9 @@ conda install ipython pip
 conda install python=3.7
 # maskrcnn_benchmark and coco api dependencies
 pip install ninja yacs cython matplotlib tqdm opencv-python h5py lmdb
+#install utils
+pip install -U scikit-learn
+pip install json
 # install pytorch
 conda install -c pytorch pytorch-nightly=1.0.0 torchvision=0.2.2
 pip install 'pillow<7.0.0'
