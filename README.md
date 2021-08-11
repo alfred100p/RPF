@@ -8,7 +8,7 @@ All instructions assume you are running from RPF directory.
 ## Installation
 
 ### Install conda (optional)
-We recommend installing conda to setup a sparate environment as this involvesspecific versions of certain libraries.
+We recommend installing conda to setup a sparate environment as this involves specific versions of certain libraries.
 
 ### Create Environment
 
