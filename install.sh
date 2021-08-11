@@ -1,5 +1,5 @@
-conda create --name rpf #replace rpf with preferred env name and in next line
-conda activate rpf #replace rpf with preferred env name
+conda create --name $1 
+conda activate $1 
 
 # # this installs the right pip and dependencies for the fresh python
 conda install ipython pip
