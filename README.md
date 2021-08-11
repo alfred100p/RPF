@@ -12,10 +12,13 @@ We recommend installing conda to setup a sparate environment as this involvesspe
 
 ### Create Environment
 
-For linux and Mac
+For Linux and Mac
+
 ````bash
 sh install.sh
 ````
+This will create an environment called rpf(can be changed by replacing rpf with desired name in <a href="install.sh">install.sh</a>) for this project and will install the required libraries for the project.
 
 For Windows
-);
+
+<p>&#128546</p>
