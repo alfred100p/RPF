@@ -13,6 +13,7 @@ We recommend installing conda to setup a sparate environment as this involves sp
 ### Create Environment
 
 For Linux and Mac
+Open a terminal window in RPF directory.
 
 ````bash
 sh install.sh "rpf"
@@ -20,5 +21,14 @@ sh install.sh "rpf"
 This will create an environment called rpf(can be changed by replacing rpf with desired name) for this project and will install the required libraries for the project.
 
 For Windows
+Open a command prompt window in RPF directory.
 
-<p>&#128546</p>
+````bash
+conda create --name rpf
+conda activate rpf
+````
+This will create an environment called rpf(can be changed by replacing rpf with desired name) for this project.
+
+````bash
+python3 install.py
+````
