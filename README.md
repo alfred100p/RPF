@@ -19,14 +19,16 @@ We recommend installing <a href="https://www.anaconda.com/products/individual">c
 ### Create Environment
 
 For Linux and Mac
+
 Open a terminal window in RPF directory.
 
 ````bash
-sh install.sh "rpf"
+sh src/setup/install.sh "rpf"
 ````
 This will create an environment called rpf(can be changed by replacing rpf with desired name) for this project and will install the required libraries for the project.
 
 For Windows
+
 Open a command prompt window in RPF directory.
 
 ````bash
@@ -36,9 +38,13 @@ conda activate rpf
 This will create an environment called rpf(can be changed by replacing rpf with desired name) for this project.
 
 ````bash
-python3 install.py
+python src/setup/install.py
 ````
 
 ## <a id="data">Datasets and Features</a>
 
-We used the Karpathy split of the MS-COCO 2014 Dataset which can be downloaded from <a href="https://cocodataset.org/">here</a>.
+We used the Karpathy split of the MS-COCO 2014 Dataset which can be downloaded from <a href="https://cocodataset.org/">here</a> or by running download-coco.py by running the below code, but we recommend running the corresponding cell in ipython notebook (RPF_train_colab.ipynb) if using colab. This will download the fll dataset but the code will use only the Karpathy split.
+
+````bash
+python3 src/setup/download-coco.py
+````
